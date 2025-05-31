@@ -1,0 +1,246 @@
+/* Modern custom styles for Restauran SMK JAYA */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #2c3e50, #34495e) !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #ffffff !important;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #ffd700 !important;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ffd700 !important;
+    transform: translateY(-2px);
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-header.bg-gradient-primary {
+    background: linear-gradient(90deg, #007bff, #0056b3) !important;
+    border-radius: 12px 12px 0 0;
+}
+
+.card-img-top {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    border: none;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, #0056b3, #003d80);
+    transform: scale(1.05);
+}
+
+.btn-outline-primary {
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-outline-primary:hover {
+    background: linear-gradient(90deg, #e9ecef, #dee2e6);
+    transform: scale(1.1);
+}
+
+.btn-danger {
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.btn-danger:hover {
+    background: linear-gradient(90deg, #dc3545, #b02a37);
+    transform: scale(1.1);
+}
+
+.list-group-item {
+    border: none;
+    padding: 12px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.list-group-item a {
+    color: #2c3e50;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.list-group-item a:hover {
+    color: #007bff;
+}
+
+.bg-gradient-dark {
+    background: linear-gradient(90deg, #2c3e50, #1a252f) !important;
+}
+
+footer {
+    font-size: 0.95rem;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+footer.footer-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Pagination Styling */
+.pagination .page-link {
+    color: #007bff;
+    border: none;
+    margin: 0 5px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.pagination .page-link:hover {
+    background-color: #e9ecef;
+    transform: scale(1.1);
+}
+
+.pagination .page-item.active .page-link {
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    color: #ffffff;
+}
+
+/* Table Styling */
+.table {
+    background-color: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.table-primary {
+    background: linear-gradient(90deg, #007bff, #0056b3) !important;
+    color: #ffffff;
+}
+
+.table-primary th {
+    font-weight: 600;
+}
+
+.table tbody tr {
+    transition: background-color 0.3s ease;
+}
+
+.table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Form Styling */
+.form-control {
+    border-radius: 8px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+.form-label {
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.invalid-feedback {
+    font-size: 0.85rem;
+}
+
+.alert {
+    border-radius: 8px;
+}
+
+/* Animations */
+.animate-nav {
+    animation: slideDown 0.8s ease-out;
+}
+
+.animate-card, .animate-form {
+    animation: fadeIn 0.6s ease-out;
+}
+
+.animate-row {
+    animation: fadeIn 0.6s ease-out;
+}
+
+.animate-alert {
+    animation: slideIn 0.5s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,81 @@
+Buatlah tampilan web sebuah toko online yang menjual produk fashion yang memiliki 4 bagian, yaitu Header, Banner, Product, dan Footer:
+1. Header berisi Home, Kolom Pencarian, Cart, Tentang Kami, Kontak, Login, dan Register
+2. Banner berisi Banner dinamis yang dapat bergerak secara otomatis dan banner 2 statis. Jadikan dalam 1 row
+3. Kategori produk berisi gambar dan nama kategori produk
+4. Product berisi card yang masing-masing card terdapat nama produk, gambar produk, harga produk, dan tombol lihat, dan tombol pesan
+5. Footer berisi produk, Pembayaran, Media Social, Tentang Kami, dan, Kontak
+Beri saya code HTML nya saja. Beri tampilan yang menarik serta animasi menggunakan Bootsraps
+
+Buatlah code untuk beberapa halaman yaitu halaman Cart, About me, Kontak, Login, Register, Order, Orderdetail:
+1. Cart berisi beberapa
+    a. Tabel dengan isi, checkbox, nama Product, Harga product, Jumlah produk, Total Produk
+    b. Total keseluruhan, Harga Total
+    c. Tombol Checkout, dan batal Checkout
+2. About me berisi Card horizontal dengan logo rumah, dan deskripsi
+3. Contact berisi no telpon toko dan chat email
+4. Login berisi form email, password, kirim, belum punya akun, tombol login
+5. Register bwerisi Form Username, email, password, konfirmasi password, buat akun
+6. Orderdetail berisi Card horizontal yang terdapat gambar product, nama, rate, harga, deskripsi, jumlah, tombol add to cart
+7. Order berisi form nama, alamat, no telp, catatan, dan rincian orderdetail , metode pembayaran, tombol buat pesanan
+Buatlah menggunakan HTML nya saja dan beri tampilan yang bagus dan rapih menggunakan Bootsraps, font google. Tidak perlu 
+menambahkan header dan Footer
+
+Buatkan saya tampilan web untuk 2 halaman, yaitu
+1. Orderdetail berisi idorderdetail, idorder, nama produk, jumlah, dan hargajual
+2. Order berisi idorder nama pelanggan, tanggal pemesanan, total, bayar, kembali, dan konfirmasi
+Berikan saya code berupa HTML-CSS nya saja. Tambahkan juga tampilan yang menarik menggunakan class dari bootstraps dan icon dari 
+font awesome jika perlu
+
+Buatkan saya sebuah halaman dasbor admin dengan 4 bagian yaitu Header, Sidebar, Content, dan Footer. 
+1. Header bersii kolom pencarian, showdown icon profile dengan nama email user menampilkan untuk logout
+2. Sidebar berisi icon disetiap tulisan halaman Dasbor, Banner, Kategori Produk, Produk, Pesanan, Pelanggan, About, Kontak,
+    dan Review Pelanggan 
+3. Content berisi 3 baris yaitu, 
+    Baris 1 berisi judul halaman pada bagian kiri dan tombol tambah data pada bagian anan 
+    Baris 2 berisi grafik Data penjualan
+    Baris 3 berisi copyright 
+Beri saya code HTML-CSS nya saja. Beri tampilan yang menarik serta animasi menggunakan Bootsraps CSS-JS.
+
+Buatlah code untuk beberapa halaman yaitu halaman :
+1. Cart berisi beberapa
+    a. Tabel dengan isi, checkbox, nama Product, Harga product, Jumlah produk, Total Produk
+    b. Total keseluruhan, Harga Total
+    c. Tombol Checkout, dan batal Checkout
+2. About me berisi Card horizontal dengan logo rumah, dan deskripsi
+3. Contact berisi no telpon toko dan chat email
+4. Login berisi form email, password, kirim, belum punya akun, tombol login
+5. Register berisi Form Username, email, password, konfirmasi password, buat akun
+6. Orderdetail berisi Card horizontal yang terdapat gambar product, nama, rate, harga, deskripsi, jumlah, tombol add to cart
+7. Order berisi form nama, alamat, no telp, catatan, dan rincian orderdetail , metode pembayaran, tombol buat pesanan
+Buatlah menggunakan HTML nya saja dan beri tampilan yang bagus dan rapih menggunakan Bootsraps, font google. Tidak perlu 
+menambahkan header dan Footer
+
+Buatlah code untuk beberapa halaman admin yaitu:
+1. Dasbor admin berisi:
+    a. 4 card dengan menampilkan text 1, icon lihat untuk menuju halaman, total yang telah ada, icon naik dengan 
+        sedikit text (halaman menu,pelanggan,pesanan,pendapatan)
+    b. 2 card ringkasan penjualan (data penjualan terbaru) dan grafik untuk data penjualan
+    c. 3 card dengan pelanggan baru, pesanan, dan pembayaran
+    d. 2 card dengan menu (yang ditambahkan oleh admin terbaru) dan kategori
+2. Banner berisi 2 container untuk banner home dan banner kontak
+    a. banner home memiliki banner statis dan dinamis. Banner jadikan 1 baris. terdapat 2 banner statis berada dikanan dengan susunan kolom, 
+        sedangkan banner dinamis berada dibagian kiri dan secara otomatis bergeser ke kanan dan kiri 
+    b. banner kontak terdapat 1 gambar yang ditampilkan dengan ukuran yang besar
+    berikan tombol pada masing - masing container banner untuk mengganti banner
+3. Kategori Produk berisi
+    a. gambar dan nama kategori
+    b. tombol icon tambah kategori
+4. produk berisi
+    a. card dengan gambar, nama, deskripsi, harga, tombol icon hapus, dan tombol icon lihat 
+    b. tombol icon tambah produk
+5. pesanan berisi
+    a. tabel dengan isi code order, nama, tanggal, produk, jumlah item, status
+4. Pembayaran berisi
+    a. tabel dengan isi code order, nama, tanggal, total bayar, status
+5. pelanggan berisi
+    a. tabel dengan no, nama, email, no hp, alamat, dan tombol aksi untuk hapus
+6. About berisi card horizontal dengan isi
+7. kontak berisi tabel no, email, pesan yang disampaikan
+8. review berisi tabel no, code order, nama, tanggal, review
+Buatkan code dengan berupa tampilan statisnya saja menggunakan HTML dan CSS. Tambahkan tampilan yang menarik menggunakan bootstraps dan 
+tambahkan icon menggunakan font awesome. Beri sedikit animasi saat icon disentuh oleh kursor
